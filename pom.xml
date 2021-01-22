@@ -12,9 +12,9 @@
   
   <properties>
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  <sonar.host.url>http://34.70.154.70:9000</sonar.host.url>
+  <sonar.host.url>http://104.155.178.60:9000/</sonar.host.url>
   <sonar.login>admin</sonar.login>
-  <sonar.password>devops</sonar.password>
+  <sonar.password>admin123</sonar.password>
   </properties>
   
   <dependencies>
@@ -29,11 +29,11 @@
   <distributionManagement>
     <snapshotRepository>
        <id>nexus_repo</id>
-       <url>http://34.70.154.70:8081/repository/maven-snapshots</url>
+       <url>http://104.155.178.60:8081/repository/maven-snapshots</url>
     </snapshotRepository>
     <repository>
        <id>nexus_repo</id>
-       <url>http://34.70.154.70:8081/repository/maven-releases</url>
+       <url>http://104.155.178.60:8081/repository/maven-releases</url>
     </repository>
   </distributionManagement>
 
